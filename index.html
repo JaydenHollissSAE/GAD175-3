@@ -38,7 +38,9 @@ Super
 </div>
 
     <script>
-    console.log(document.outerHTML)
-    document.innerHTML = document.outerHTML.replace(" ", "<br>");
+      gameName = document.getElementsByTagName("div")[0];
+      console.log(gameName)
+    gameName.innerHTML = gameName.replace(" ", "<br>");
+      console.log(gameName)
   </script>
 </body>
