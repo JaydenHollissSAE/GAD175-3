@@ -40,6 +40,8 @@ Super
     <script>
       gameName = document.getElementsByTagName("div")[0];
       console.log(gameName)
+      console.log(gameName.outerHTML)
+      console.log(gameName.outerHTML.replace(" ", "<br>"))
     gameName.innerHTML = gameName.outerHTML.replace(" ", "<br>");
       console.log(gameName)
   </script>
